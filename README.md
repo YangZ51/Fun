@@ -1,3 +1,3 @@
 # Project-1
 
-Seismic data denoising based on DWT-MRA
+I will keep updating some useful functions that write in Python
