@@ -93,7 +93,7 @@ end
 
 figure(1)
 
-%Animation of H wave propogating
+% Animation
 for index=1:length(t)
     mesh(x,y,h(:,:,index))
     axis ([0 100000 0 100000 4990 5010])
