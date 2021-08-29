@@ -43,7 +43,7 @@ h(:,:,1) = 5000;
 h((45000/100000*(length(x)-1)+1):floor(55000/100000*(length(x)-1)+1)...
     ,(45000/100000*(length(y)-1)+1):floor(55000/100000*(length(y)-1)+1),1) = 5030;
 
-%Define the bathymetry surface (b)
+% Define the bathymetry surface (b)
 for i = 1:length(x)
     if x(i) > 20001
         b(:,i) = 0;
@@ -52,7 +52,7 @@ for i = 1:length(x)
     end
 end
 
-% Employ Lax
+% Interations...
 for n=1:(length(t)-1)
     for i=2:(ni-1)
         for j=2:(nj-1)    
