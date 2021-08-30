@@ -2,10 +2,10 @@ import pywt
 import matplotlib.pyplot as plt
 
 
-def plot_dwt_decomp(input_data, wavelet_type, level, title):
+def plot_wavedec(input_data, wavelet_type, level, title):
     """
     Plot decomposed signals based on DWT method
-    plot_dwt_decon(source[:, 'sym4', "DWT: Vibroseis Signal", 6)
+    plot_wavedec(source[:, 'sym4', "DWT: Vibroseis Signal", 6)
 
     :param input_data:              Array-like data
     :param wavelet_type:            Wavelet type --> Ex. 'db4', 'sym4'
